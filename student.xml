@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!DOCTYPE STUDENTS SYSTEM "student.dtd">
+<STUDENTS>
+    <STUDENT>
+   	 <ROLL> ROLL NO </ROLL>
+   	 <NAME> NAME </NAME>
+   	 <SUBJECT>
+   		 <SUB> SUBJECT 1 </SUB>
+   		 <MARKS> MARKS </MARKS>
+   		 <SUB> SUBJECT 2 </SUB>
+   		 <MARKS> MARKS </MARKS>
+   	 </SUBJECT>
+    </STUDENT>
+
+<STUDENT>
+    <ROLL> 5 </ROLL>
+    <NAME> Viren </NAME>
+    <SUBJECT>
+   	 <SUB> TCS </SUB>
+   	 <MARKS> 75 </MARKS>
+   	 <SUB> MP </SUB>
+   	 <MARKS> 71 </MARKS>
+    </SUBJECT>
+</STUDENT>    
+
+<STUDENT>
+    <ROLL> 15 </ROLL>
+    <NAME> Rahul </NAME>
+    <SUBJECT>
+   	 <SUB> CG </SUB>
+   	 <MARKS> 45 </MARKS>
+   	 <SUB> CN </SUB>
+   	 <MARKS> 51 </MARKS>
+    </SUBJECT>
+</STUDENT>    
+
+
+<STUDENT>
+    <ROLL> 18 </ROLL>
+    <NAME> Shivam </NAME>
+    <SUBJECT>
+   	 <SUB> MP </SUB>
+   	 <MARKS> 35 </MARKS>
+   	 <SUB> TCS </SUB>
+   	 <MARKS> 80 </MARKS>
+    </SUBJECT>
+</STUDENT>    
+</STUDENTS>	

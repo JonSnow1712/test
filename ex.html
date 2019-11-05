@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <script>
+
+
+        xmlhttp = new XMLHttpRequest();
+        xmlhttp.open("GET", "student.xml", false);
+        xmlhttp.send();
+
+        xmlDoc = xmlhttp.responseXML;
+        document.write("<table border='1'>")
+
+        var x = xmlDoc.getElementsByTagName("STUDENT");
+        for (i = 0; i < x.length; i++) {
+            document.write("<tr><td>");
+            document.write(x[i].getElementsByTagName("ROLL")[0].childNodes[0].nodeValue);
+            document.write("</td><td>");
+            document.write(x[i].getElementsByTagName("NAME")[0].childNodes[0].nodeValue);
+            document.write("</td>");
+
+            var y = xmlDoc.getElementsByTagName("SUBJECT");
+
+            document.write("<td>");
+            document.write(y[i].getElementsByTagName("SUB")[0].childNodes[0].nodeValue);
+            document.write("</td><td>");
+            document.write(y[i].getElementsByTagName("MARKS")[0].childNodes[0].nodeValue);
+            document.write("</td>");
+
+            document.write("<td>");
+            document.write(y[i].getElementsByTagName("SUB")[1].childNodes[0].nodeValue);
+            document.write("</td><td>");
+            document.write(y[i].getElementsByTagName("MARKS")[1].childNodes[0].nodeValue);
+            document.write("</td>");
+
+
+        }
+        document.write("</tr>");
+
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
