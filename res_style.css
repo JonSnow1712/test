@@ -1,0 +1,42 @@
+body{
+    background-color: #EAE6E5;
+    font-family: cursive;
+    color: #12130F;
+    margin: auto;
+    margin-bottom: 20px;
+}
+img{
+    border-radius: 50%
+}
+b{
+    color: #01200F;
+}
+
+
+.container{
+    margin: auto;
+}
+
+.personal{
+    background-color: #8F8073;
+    width: 60%;
+    padding: 10%;
+    margin-bottom: 20px;
+    margin: auto;
+    border-radius: 5%;
+}
+.profile{
+    margin-bottom: 50px;
+    float: right;
+    padding-top: 0;
+}
+.cen{
+    margin: auto;
+}
+.card{
+    margin:auto;
+    margin-bottom: 150px;
+}
+p.card{
+    padding-top: 20px;
+}
